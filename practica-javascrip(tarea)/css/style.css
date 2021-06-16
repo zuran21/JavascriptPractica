@@ -1,0 +1,17 @@
+body{
+    background: url(/img/certusfondo.jpg);
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+}
+.fondo{
+    margin: 0.5%;
+    padding: 3%;
+    float: left;
+    background-color: azure;
+    background-position: center;
+    position: relative;
+}
+/** ashley villanueva

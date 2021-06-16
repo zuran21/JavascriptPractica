@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/code.js"></script>
+    <title>Ficha</title>
+</head>
+<!--ashley villanueva-->
+<body>
+
+    <div class="fondo">
+    
+    <h1>Ficha Del Personal</h1>
+    <br>
+    <br>
+    Codigo : <input type="text" id="codigo" onkeypress="return solonumeros(event)">
+    <br>
+    <br>
+    Cliente : <input type="text" id="cliente" onkeypress="return sololetras(event)"  >
+    <br>
+    <br>
+    DNI : <input type="text" id="dni" onkeypress="return solonumeros(event)">
+    <br>
+    <br>
+    Direccion : <input type="text" id="direccion" onkeypress="return  direccion(event)">
+    <br>
+    <br>
+    Distrito : <input type="text" id="distrito" >
+    <br>
+    <br>
+    Provincia : <input type="text" id="provincia" onkeypress="return sololetras(event)" >
+    <br>
+    <br>
+    Departamento : <input type="text" id="departamento" onkeypress="return sololetras(event)" >
+    <br>
+    <br>
+    
+    <input type="button" value="registrar" onclick="registrar()"> <input type="reset" value="cancelar" onclick="cancelar()">
+
+</div>
+   
+</body>
+</html>
